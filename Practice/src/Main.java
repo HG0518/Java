@@ -1,15 +1,15 @@
 import java.util.*;
 
+
+
 public class Main {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("두자리 정수를 입력해주세요 : ");
-        String input = sc.nextLine();
-        int num = Integer.parseInt(input);
-
-        System.out.println("입력내용 : "+input);
-        System.out.printf("num=%d%n",num);
+        long regNo = 98051810711112L;
+        System.out.println("regNo: " + regNo)  ;
+        System.out.println(abc);
     }
+    
+    static double abc;
+
 }
